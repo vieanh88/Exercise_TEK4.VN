@@ -1,0 +1,6 @@
+p = float(input("Số tiền gốc ban đầu: "))
+r = float(input("Lãi suất hàng năm: "))
+n = int(input("Số lần lãi suất được cộng thêm mỗi năm: "))
+t = int(input("Số năm tiền được gửi: "))
+a = p * (1 + r / n) ** (n * t)
+print ("Số tiền sau", t, "năm là:", a)
